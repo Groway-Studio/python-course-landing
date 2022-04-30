@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.072f015d.css",
+    "main.js": "/static/js/main.a062cc3a.js",
+    "static/media/programming.png": "/static/media/programming.dfe352e6993f732631dc.png",
+    "static/media/python.png": "/static/media/python.4f17869933ad6cf42eb3.png",
+    "static/media/ic-socials-1.svg": "/static/media/ic-socials-1.6c81e7a2ddaa7d0561f2f054349a3375.svg",
+    "static/media/ic-socials.svg": "/static/media/ic-socials.ac01121793444ac3eb7abaad6ec6f104.svg",
+    "static/media/ic-wifi.svg": "/static/media/ic-wifi.91b60dfa3fea1f7799bddc3b7f1b4fcd.svg",
+    "static/media/ic-socials-2.svg": "/static/media/ic-socials-2.46c826c6594121dc48e86a7bc917a3c5.svg",
+    "static/media/duration.svg": "/static/media/duration.23759f93c50159d61c4f9c2677b81eea.svg",
+    "static/media/price.svg": "/static/media/price.aa71351dbea1e90cc6b7375816e71f9a.svg",
+    "static/media/ic-tutor.svg": "/static/media/ic-tutor.4d641dced29fb7a7006c5236051db0b0.svg",
+    "static/media/ic-play.svg": "/static/media/ic-play.44642c5a7cab3aa30ae4083b8e8a9c89.svg",
+    "index.html": "/index.html",
+    "static/media/blob-section.svg": "/static/media/blob-section.8ac5f0f1ea47790a1ccf.svg",
+    "static/media/blob-header.svg": "/static/media/blob-header.ddd22de9f60ff3b891df3c98d5254c6e.svg",
+    "static/media/ic-material.svg": "/static/media/ic-material.ad05f5e0c7da384712f70df854ed61d1.svg",
+    "static/media/download.svg": "/static/media/download.d2098050357216553ea4fde1b4f2da36.svg",
+    "static/media/hours.svg": "/static/media/hours.60c5e7dd15b86173025710fd1ace67e4.svg",
+    "main.072f015d.css.map": "/static/css/main.072f015d.css.map",
+    "main.a062cc3a.js.map": "/static/js/main.a062cc3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.072f015d.css",
+    "static/js/main.a062cc3a.js"
+  ]
+}
