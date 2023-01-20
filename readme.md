@@ -1,4 +1,4 @@
-# Curso de Python
+# Curso Practico de Python
 
 **Diagrama de Flujo Landing Page**
 
