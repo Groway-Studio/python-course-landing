@@ -11,25 +11,21 @@ export default function Faqs() {
         <aside className="FaqComponent__faq-list">
           <FaqItem
             title="¿A quién va dirigido el curso?"
-            description="Este curso está pensado en todos aquellos programadores con poca o
-              ninguna experiencia usando Python y que quieran aprender en
-              profundidad el uso de este lenguaje sin dejar de lado las bases y
-              fundamentos de programación."
+            description="Este curso está pensado en todos aquellos que quieran aprender a programar 
+            en python de forma practica y rápida."
           />
 
           <FaqItem
             title="¿Cuándo inicia el curso?"
-            description="El inicio del curso está programado para el día 24 de Septiembre
-              de 2022."
+            description="El inicio del curso está programado para el día 18 de febrero
+              de 2023."
           />
 
           <FaqItem
             title="¿Qué hace a este curso diferente a los demás?"
-            description="Este curso te permitirá no sólo aprender la sintaxis de un
-              lenguaje de programación, sino repasar los fundamentos de
-              programación, buenas prácticas, algoritmos y otros temas que te
-              permitirán conocer en profundidad el lenguaje y sus
-              particularidades."
+            description="Este curso te permitirá no sólo aprender mientras vas aplicando tus conocimientos 
+            permmitiendo obtener resultados desde la primemra clase. Al finalizar este curso podras tener
+            un portafolio personal de proyectos listo para mostrar a tus posibles empleadores."
           />
 
           <FaqItem
@@ -53,12 +49,12 @@ export default function Faqs() {
               </li>
             </ul>
           </FaqItem>
-
+{/* 
           <FaqItem
             title="¿Cuánto tiempo seguirá disponible la tarifa Early Bird?"
             description="El precio especial de compra anticipada estará disponible hasta el
               día 31 de Agosto de 2022."
-          />
+          /> */}
         </aside>
       </section>
     </>
