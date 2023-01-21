@@ -43,21 +43,15 @@ export default function Hero() {
               <div className="dflex fd-col title">
                 <h5>Aprende</h5>
                 <span className="cover-text">Python</span>
-                <small>como se debe...</small>
+                <small>De forma práctica...</small>
               </div>
             </div>
             <p>
-              <b>En Groway</b> diseñamos este curso de Python basado en la
-              experiencia acumulada de nuestros expertos para que puedas
-              introducir y repasar los fundamentos de programación a través de{" "}
-              <b>Python</b> de una forma sencilla, eficiente y divertida,
-              recuerda que las bases son siempre importantes para crear
-              conocimiento sólido y prepararte para trabajar en tu crecimiento
-              profesional.
+              <b>En Groway Academy</b> diseñamos este curso para que puedas
+              aprender de forma práctica y rápida, mediante la construccion de proyectos reales.
             </p>
             <p>
-              Aprende sobre Estructuras de Datos, Principios SOLID, Patrones de
-              Diseño, POO, Programación Funcional, Algoritmos y mucho más!
+              Aprende a construir landing page, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
             </p>
           </div>
           <article className="presitions">
@@ -66,7 +60,7 @@ export default function Hero() {
               <figcaption>
                 <span>
                   <b>Inicio</b> <br />
-                  24 Septiembre
+                  18 Febrero
                 </span>
                 <span>
                   <b>Duración</b> <br />4 semanas
@@ -88,7 +82,7 @@ export default function Hero() {
               <figcaption>
                 <span>Costo</span>
                 <h2>
-                  <b>USD 150.00</b>
+                  <b>USD 99.00</b>
                 </h2>
               </figcaption>
             </figure>
@@ -97,12 +91,8 @@ export default function Hero() {
         <aside className="formInfo-hero">
           {/* <div className="formInfo-hero__ribbon">33% OFF</div> */}
           <h2>
-            Final <span>Sale!</span>
+            Private <span>Sale!</span>
           </h2>
-          {/* <p>
-            ¡Aprovecha este curso para adquirir conocimientos en el lenguaje de
-            programación Python de la mano de un experto en el campo!
-          </p> */}
           <Form id="checkoutForm" onSubmit={handleSubmit}>
             <FormGroup>
               <Label htmlFor="firstName">Nombre</Label>
@@ -146,12 +136,12 @@ export default function Hero() {
               />
             </FormGroup>
 
-            {/* <div className="offer">
+            <div className="offer">
               <div>
                 <small>USD</small>
-                <span>150</span>
+                <span>99.00</span>
               </div>
-            </div> */}
+            </div>
 
             <Button type="submit">
               Comprar por USD {getCurrentPrice()}.00

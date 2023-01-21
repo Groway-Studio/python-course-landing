@@ -57,37 +57,37 @@ export const validateEmail = (email: string) => {
 type DateValidation = (
   startDate: number,
   endDate: number,
-  currentMonth: "august" | "september"
+  currentMonth: "january" | "february"
 ) => boolean;
 
 export const dateValitation: DateValidation = (
   startDate,
   endDate,
-  currentMoth
+  currentMonth
 ) => {
   return (
     new Date().getDate() >= startDate &&
     new Date().getDate() <= endDate &&
-    new Date().getMonth() === (currentMoth === "august" ? 7 : 8) &&
-    new Date().getFullYear() === 2022
+    new Date().getMonth() === (currentMonth === "january" ? 0 : 1) &&
+    new Date().getFullYear() === 2023
   );
 };
 
 const privateSaleVerification = (): boolean =>
-  !dateValitation(24, 31, "august");
+  !dateValitation(20, 31, "january");
 
 const earlyBirdVerification = (): boolean =>
-  !dateValitation(1, 10, "september");
+  !dateValitation(1, 10, "february");
 
 const realPriceVerification = (): boolean =>
-  !dateValitation(11, 20, "september");
+  !dateValitation(11, 18, "february");
 
 export const getCurrentPrice = (): number =>
-  dateValitation(25, 31, "august")
+  dateValitation(20, 31, "january")
+    ? 29
+    : dateValitation(1, 10, "february")
     ? 49
-    : dateValitation(1, 10, "september")
-    ? 99
-    : 150;
+    : 99;
 
 export interface Timeline {
   day: number;
@@ -103,36 +103,36 @@ export interface Timeline {
 
 export const timeline: Timeline[] = [
   {
-    day: 25,
-    month: "Agosto",
+    day: 21,
+    month: "Enero",
     typeOfSale: "Venta Privada",
     description:
-      "Venta privada especial para socios, colaboradores, referidos, amigos y clientes de la empresa.",
-    price: "49 USD",
-    until: "31 de Agosto",
+      "Venta privada especial para socios, colaboradores, referidos, amigos y ex-estudiantes.",
+    price: "29 USD",
+    until: "31 de Enero",
     ribbon: true,
     disabled: privateSaleVerification(),
-    discount: 67,
+    discount: 71,
   },
   {
     day: 1,
-    month: "Septiembre",
+    month: "Febrero",
     typeOfSale: "Early Bird Sale",
     description:
       "Primera venta pública abierta a todo público con un descuento por pronta compra.",
-    price: "99 USD",
-    until: "10 de Septiembre",
-    ribbon: true,
+    price: "49 USD",
+    until: "10 de Febrero",
+    ribbon: false,
     disabled: earlyBirdVerification(),
-    discount: 33,
+    discount: 51,
   },
   {
-    day: 11,
-    month: "Septiembre",
+    day: 10,
+    month: "Febrero",
     typeOfSale: "Precio General",
     description: "Última semana de venta pública antes del inicio del curso.",
-    price: "150 USD",
-    until: "20 de Septiembre",
+    price: "99 USD",
+    until: "18 de Febrero",
     disabled: realPriceVerification(),
   },
 ];

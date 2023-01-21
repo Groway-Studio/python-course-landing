@@ -28,7 +28,7 @@ const Header: FC<Props> = ({ image = false }) => {
   }, []);
 
   return (
-    <>
+    <div>
       <img
         src={width < 700 ? headerMobile : headerBg}
         className="headerBg"
@@ -36,13 +36,8 @@ const Header: FC<Props> = ({ image = false }) => {
         draggable={false}
       />
 
-      <Box
+      <div
         className="navMenu"
-        sx={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
       >
         <Link to="/">
           <img
@@ -56,11 +51,11 @@ const Header: FC<Props> = ({ image = false }) => {
                 : groway
             }
             draggable={false}
-            alt="Groway.Education"
+            alt="Groway.Academy"
           />
         </Link>
-      </Box>
-    </>
+      </div>
+    </div>
   );
 };
 
