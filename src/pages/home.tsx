@@ -42,6 +42,9 @@ export default function Home() {
         ) {
           setShowOverlay(true);
           setLoading(false);
+        } else {
+          setLoading(false);
+          setShowOverlay(false);
         }
 
         //setLoading(false);
