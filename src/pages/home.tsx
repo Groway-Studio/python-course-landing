@@ -40,7 +40,7 @@ export default function Home() {
           data === "Invalid invitation_code" ||
           data === "No invitation_code"
         ) {
-          setShowOverlay(false);
+          setShowOverlay(true);
           setLoading(false);
         }
 
