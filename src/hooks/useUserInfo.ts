@@ -60,7 +60,7 @@ const useUserInfo = () => {
         const response = await fetch(checkoutUrl, {
           method: "POST",
           body: JSON.stringify({
-            title: "Precio general",
+            title: "Private Sale",
             success_url: `${pathnameOrigin}${"/#"}${validPaths.success}`,
             pending_url: `${pathnameOrigin}${"/#"}${validPaths.pending}`,
             failure_url: `${pathnameOrigin}${"/#"}${validPaths.failed}`,
@@ -69,7 +69,7 @@ const useUserInfo = () => {
             user_email: email,
             user_phone: `+51${phoneNumber}`,
             invitation_code: getParameterByName("invitation_code"),
-            price: 75.0,
+            price: 29.0,
           }),
         });
 
