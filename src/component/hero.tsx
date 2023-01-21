@@ -74,7 +74,7 @@ export default function Hero() {
                   Sábados y <br />
                   Domingos
                 </span>
-                <span>de 9:00 a 12:00</span>
+                <span>de 9:00 a 12:00 GMT-5</span>
               </figcaption>
             </figure>
             <figure className="item">
