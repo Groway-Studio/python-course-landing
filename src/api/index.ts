@@ -1,2 +1,2 @@
 export const API: string =
-  "https://python-course-function-git-main-joelibaceta.vercel.app/api";
+  "https://python-course-function-joelibaceta.vercel.app/api";
