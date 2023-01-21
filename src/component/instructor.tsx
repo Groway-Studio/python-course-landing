@@ -1,7 +1,7 @@
 import "../sass/component/_instructor.scss";
 
 import profile from "./../assets/profile.jpg";
-import yahyrpic from "../assets/1614358769711.jpeg";
+
 
 export default function Instructor() {
   return (

@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from "react";
-import { Box } from "@material-ui/core";
 
 import headerBg from "./../../assets/blob-header.svg";
 import headerMobile from "../../assets/blo-header-mobile.svg";
