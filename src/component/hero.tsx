@@ -51,7 +51,7 @@ export default function Hero() {
               aprender de forma práctica y rápida, mediante la construccion de proyectos reales para que puedas aprender de la forma mas efectiva.
             </p>
             <p>
-              Aprende a construir landing page, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
+              Por que sabemos que no te gusta esperar para ver los resultados de tu aprendizaje, desde el primer dia al ultimo aprenderas python construyendo landing pages, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
             </p>
           </div>
           <article className="presitions">
