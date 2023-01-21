@@ -48,7 +48,7 @@ export default function Hero() {
             </div>
             <p>
               <b>En Groway Academy</b> diseñamos este curso para que puedas
-              aprender de forma práctica y rápida, mediante la construccion de proyectos reales.
+              aprender de forma práctica y rápida, mediante la construccion de proyectos reales para que puedas aprender de la forma mas efectiva.
             </p>
             <p>
               Aprende a construir landing page, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
