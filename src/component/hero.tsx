@@ -48,10 +48,10 @@ export default function Hero() {
             </div>
             <p>
               <b>En Groway Academy</b> diseñamos este curso para que puedas
-              aprender de forma práctica y rápida, mediante la construccion de proyectos reales para que puedas aprender de la forma mas efectiva.
+              aprender de forma práctica y rápida, mediante la construcción de proyectos reales para que puedas aprender de la forma más efectiva.
             </p>
             <p>
-              Por que sabemos que no te gusta esperar para ver los resultados de tu aprendizaje, desde el primer dia al ultimo aprenderas python construyendo landing pages, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
+              Por que sabemos que no te gusta esperar para ver los resultados de tu aprendizaje, desde el primer día al último aprenderás python construyendo landing pages, paginas web, tiendas virtuales, blogs, chatbots y mucho más.
             </p>
           </div>
           <article className="presitions">
