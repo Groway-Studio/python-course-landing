@@ -11,8 +11,7 @@ export default function Faqs() {
         <aside className="FaqComponent__faq-list">
           <FaqItem
             title="¿A quién va dirigido el curso?"
-            description="Este curso está pensado en todos aquellos que quieran aprender a programar 
-            en python de forma practica y rápida."
+            description="Este curso está pensado para todos aquellos que quieran aprender a programar en Python de forma práctica y rápida."
           />
 
           <FaqItem
@@ -23,9 +22,7 @@ export default function Faqs() {
 
           <FaqItem
             title="¿Qué hace a este curso diferente a los demás?"
-            description="Este curso te permitirá no sólo aprender mientras vas aplicando tus conocimientos 
-            permmitiendo obtener resultados desde la primemra clase. Al finalizar este curso podras tener
-            un portafolio personal de proyectos listo para mostrar a tus posibles empleadores."
+            description="Este curso te permitirá no sólo aprender mientras vas aplicando tus conocimientos permitiendo obtener resultados desde la primera clase. Al finalizar este curso podrás tener un portafolio personal de proyectos listo para mostrar a tus posibles empleadores."
           />
 
           <FaqItem
@@ -36,16 +33,16 @@ export default function Faqs() {
               materiales de apoyo:"
           >
             <ul>
-              <li>Presentaciones expuestas en las sesiones</li>
+              <li>Presentaciones expuestas en las sesiones.</li>
               <li>
-                Acceso al repositorio de código con todos los ejemplos del curso
+                Acceso al repositorio de código con todos los ejemplos del curso.
               </li>
               <li>
-                Libro <b>Python para todos</b> en formato PDF
+                Libro <b>Python para todos</b> en formato PDF.
               </li>
               <li>
                 Banco de preguntas de entrevistas técnicas sobre Python y
-                ejercicios para que puedas practicar
+                ejercicios para que puedas practicar.
               </li>
             </ul>
           </FaqItem>
